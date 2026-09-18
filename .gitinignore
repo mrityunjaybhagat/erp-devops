@@ -1,0 +1,26 @@
+# Root environment
+backend/
+#.env
+
+# Laravel environment
+backend/.env
+
+# Composer dependencies
+backend/vendor/
+
+# Laravel generated/runtime files
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+
+# PHPUnit
+backend/.phpunit.result.cache
+
+# Frontend dependencies/build files if Laravel uses them
+backend/node_modules/
+backend/public/build/
+
+# IDE / OS
+.vscode/
+.DS_Store
